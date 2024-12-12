@@ -151,6 +151,12 @@
             <artifactId>EssentialsX</artifactId>
             <version>2.20.1</version>
             <scope>provided</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.papermc</groupId>
+                    <artifactId>paperlib</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>me.clip</groupId>
